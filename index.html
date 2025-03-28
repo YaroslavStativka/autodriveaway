@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250328162309">
-	<title>Главная</title>
-</head>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/style.min.css?_v=20250328163447" />
+      <title>Главная</title>
+   </head>
 
    <body>
       <header class="header">
-   <div class="header__container">
-      <div class="header__body">
-         <a href="/" class="header__logo">
-            <picture><source srcset="img/header-logo.webp" type="image/webp"><img src="img/header-logo.png" alt="header-logo" /></picture>
-         </a>
-         <div class="header__menu menu">
-            <button type="button" class="menu__icon icon-menu">
-               <span></span>
-            </button>
-            <nav class="menu__body">
-               <ul class="menu__list">
-                  <li><a href="#who" class="menu__link">Кто мы?</a></li>
-                  <li><a href="#benefits" class="menu__link">Преимущества</a></li>
-               </ul>
-               <div class="header__buttons mobile">
+         <div class="header__container">
+            <div class="header__body">
+               <a href="/" class="header__logo">
+                  <picture>
+                     <source srcset="img/header-logo.webp" type="image/webp" />
+                     <img src="img/header-logo.png" alt="header-logo" />
+                  </picture>
+               </a>
+               <div class="header__menu menu">
+                  <button type="button" class="menu__icon icon-menu">
+                     <span></span>
+                  </button>
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li><a href="#who" class="menu__link">Кто мы?</a></li>
+                        <li><a href="#benefits" class="menu__link">Преимущества</a></li>
+                     </ul>
+                     <div class="header__buttons mobile">
+                        <a href="javascript:void(0);" class="header__button login">Войти</a>
+                        <a href="#claim-section" class="header__button register">Регистрация</a>
+                     </div>
+                  </nav>
+               </div>
+               <div class="header__buttons desktop">
                   <a href="javascript:void(0);" class="header__button login">Войти</a>
                   <a href="#claim-section" class="header__button register">Регистрация</a>
                </div>
-            </nav>
+            </div>
          </div>
-         <div class="header__buttons desktop">
-            <a href="javascript:void(0);" class="header__button login">Войти</a>
-            <a href="#claim-section" class="header__button register">Регистрация</a>
-         </div>
-      </div>
-   </div>
-</header>
+      </header>
 
       <main>
          <section class="hero">
             <div class="hero__image">
-               <picture><source srcset="img/main-bg.webp" type="image/webp"><img src="img/main-bg.png" alt="image" /></picture>
+               <picture>
+                  <source srcset="img/main-bg.webp" type="image/webp" />
+                  <img src="img/main-bg.png" alt="image" />
+               </picture>
             </div>
             <div class="hero__container _container">
                <div class="hero__body">
@@ -55,10 +61,10 @@
                      <p class="hero__form-block-subtitle">Получите бесплатную консультацию уже сегодня</p>
                      <form action="#" method="post" class="hero__form-block-form">
                         <div class="hero__form-block-group">
-                           <input id="hero-name" type="text" name="name" placeholder="Имя" autocomplete="name"  />
+                           <input id="hero-name" type="text" name="name" placeholder="Имя" autocomplete="name" />
                         </div>
                         <div class="hero__form-block-group">
-                           <input id="hero-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname"  />
+                           <input id="hero-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname" />
                         </div>
                         <div class="hero__form-block-group">
                            <input id="hero-tel" type="tel" name="tel" placeholder="Номер" autocomplete="tel" required />
@@ -95,12 +101,18 @@
                         </a>
                      </div>
                      <div class="about-section__top-right-image">
-                        <picture><source srcset="img/about_1.webp" type="image/webp"><img src="img/about_1.png" alt="about_section_1" /></picture>
+                        <picture>
+                           <source srcset="img/about_1.webp" type="image/webp" />
+                           <img src="img/about_1.png" alt="about_section_1" />
+                        </picture>
                      </div>
                   </div>
                   <div class="about-section__bottom" id="benefits">
                      <div class="about-section__bottom-left-image">
-                        <picture><source srcset="img/about_2.webp" type="image/webp"><img src="img/about_2.png" alt="about_section_2" /></picture>
+                        <picture>
+                           <source srcset="img/about_2.webp" type="image/webp" />
+                           <img src="img/about_2.png" alt="about_section_2" />
+                        </picture>
                      </div>
                      <div class="about-section__bottom-right">
                         <h2 class="about-section__bottom-right-title">Преимущества</h2>
@@ -169,10 +181,10 @@
                   </div>
                   <form action="#" method="post" class="claim-section__form">
                      <div class="claim-section__form-group">
-                        <input id="claim-name" type="text" name="name" placeholder="Имя" autocomplete="name"  />
+                        <input id="claim-name" type="text" name="name" placeholder="Имя" autocomplete="name" />
                      </div>
                      <div class="claim-section__form-group">
-                        <input id="claim-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname"  />
+                        <input id="claim-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname" />
                      </div>
                      <div class="claim-section__form-group">
                         <input id="claim-tel" type="tel" name="tel" placeholder="Номер" autocomplete="tel" required />
@@ -187,90 +199,93 @@
          </section>
       </main>
       <footer class="footer">
-   <div class="register-form">
-      <div class="register-form__body">
-         <div class="register-form__body-close"></div>
-         <h2 class="register-form__title">Заполните форму для регистрации</h2>
-         <div class="register-form__text">*Ваш цифровой адрес не зарегистрирован</div>
-         <form action="#" method="post" class="hero__form-block-form">
-            <div class="hero__form-block-group">
-               <input id="reg-name" type="text" name="name" placeholder="Имя" autocomplete="name"  />
-            </div>
-            <div class="hero__form-block-group">
-               <input id="reg-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname"  />
-            </div>
-            <div class="hero__form-block-group">
-               <input id="reg-tel" type="tel" name="tel" placeholder="Номер" autocomplete="tel" required />
-            </div>
-            <div class="hero__form-block-group">
-               <input id="reg-email" type="email" name="email" placeholder="Email" autocomplete="email" required />
-            </div>
-            <input type="submit" class="hero__form-block-button" />
-         </form>
-      </div>
-   </div>
-   <div class="footer__container _container">
-      <div class="footer__body">
-         <div class="footer__top">
-            <div class="footer__top-left">
-               <div class="footer__main-images">
-                  <div class="footer__main-image">
-                     <picture><source srcset="img/image_footer.webp" type="image/webp"><img src="img/image_footer.png" alt="" /></picture>
+         <div class="register-form">
+            <div class="register-form__body">
+               <div class="register-form__body-close"></div>
+               <h2 class="register-form__title">Заполните форму для регистрации</h2>
+               <div class="register-form__text">*Ваш цифровой адрес не зарегистрирован</div>
+               <form action="#" method="post" class="hero__form-block-form">
+                  <div class="hero__form-block-group">
+                     <input id="reg-name" type="text" name="name" placeholder="Имя" autocomplete="name" />
                   </div>
-                  <div class="footer__main-logos">
-                     <div class="footer__main-logo-facebook">
-                        <svg class="">
-                           <use xlink:href="img/sprite.svg#facebook"></use>
-                        </svg>
+                  <div class="hero__form-block-group">
+                     <input id="reg-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname" />
+                  </div>
+                  <div class="hero__form-block-group">
+                     <input id="reg-tel" type="tel" name="tel" placeholder="Номер" autocomplete="tel" required />
+                  </div>
+                  <div class="hero__form-block-group">
+                     <input id="reg-email" type="email" name="email" placeholder="Email" autocomplete="email" required />
+                  </div>
+                  <input type="submit" class="hero__form-block-button" />
+               </form>
+            </div>
+         </div>
+         <div class="footer__container _container">
+            <div class="footer__body">
+               <div class="footer__top">
+                  <div class="footer__top-left">
+                     <div class="footer__main-images">
+                        <div class="footer__main-image">
+                           <picture>
+                              <source srcset="img/image_footer.webp" type="image/webp" />
+                              <img src="img/image_footer.png" alt="" />
+                           </picture>
+                        </div>
+                        <div class="footer__main-logos">
+                           <div class="footer__main-logo-facebook">
+                              <svg class="">
+                                 <use xlink:href="img/sprite.svg#facebook"></use>
+                              </svg>
+                           </div>
+                           <div class="footer__main-logo-linkedin">
+                              <svg class="">
+                                 <use xlink:href="img/sprite.svg#linkedin"></use>
+                              </svg>
+                           </div>
+                           <div class="footer__main-logo-youtube">
+                              <svg class="">
+                                 <use xlink:href="img/sprite.svg#youtube"></use>
+                              </svg>
+                           </div>
+                        </div>
                      </div>
-                     <div class="footer__main-logo-linkedin">
-                        <svg class="">
-                           <use xlink:href="img/sprite.svg#linkedin"></use>
-                        </svg>
-                     </div>
-                     <div class="footer__main-logo-youtube">
-                        <svg class="">
-                           <use xlink:href="img/sprite.svg#youtube"></use>
-                        </svg>
-                     </div>
+                  </div>
+                  <div class="footer__top-center">
+                     <nav class="footer__top-center-navigation">
+                        <ul class="footer__top-center-navigation-menu">
+                           <li><a href="#">Terms of Service</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                           <li><a href="#">Disclaimer</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+                  <div class="footer__top-right">
+                     <nav class="footer__top-right-navigation">
+                        <ul class="footer__top-right-navigation-menu">
+                           <li><a href="#">Services</a></li>
+                           <li><a href="#">Why Auto Driveaway</a></li>
+                           <li><a href="#">Industries Served</a></li>
+                           <li><a href="#">Company Overview</a></li>
+                           <li><a href="#">Careers</a></li>
+                           <li><a href="#">Contact</a></li>
+                        </ul>
+                     </nav>
                   </div>
                </div>
-            </div>
-            <div class="footer__top-center">
-               <nav class="footer__top-center-navigation">
-                  <ul class="footer__top-center-navigation-menu">
-                     <li><a href="#">Terms of Service</a></li>
-                     <li><a href="#">Privacy Policy</a></li>
-                     <li><a href="#">Disclaimer</a></li>
-                  </ul>
-               </nav>
-            </div>
-            <div class="footer__top-right">
-               <nav class="footer__top-right-navigation">
-                  <ul class="footer__top-right-navigation-menu">
-                     <li><a href="#">Services</a></li>
-                     <li><a href="#">Why Auto Driveaway</a></li>
-                     <li><a href="#">Industries Served</a></li>
-                     <li><a href="#">Company Overview</a></li>
-                     <li><a href="#">Careers</a></li>
-                     <li><a href="#">Contact</a></li>
-                  </ul>
-               </nav>
+               <div class="footer__bottom">
+                  <div class="footer__bottom-copy">Copyright © 2025 Auto Driveaway | All Rights</div>
+                  <p>Reserved</p>
+               </div>
             </div>
          </div>
-         <div class="footer__bottom">
-            <div class="footer__bottom-copy">Copyright © 2025 Auto Driveaway | All Rights</div>
-            <p>Reserved</p>
-         </div>
-      </div>
-   </div>
-</footer>
+      </footer>
 
-      <script src="files/jquery-3.7.1.js?_v=20250328162309"></script>
-      <script src="files/jquery.inputmask.min.js?_v=20250328162309"></script>
-      <script src="files/ScrollTrigger.min.js?_v=20250328162309"></script>
-      <script src="files/gsap.min.js?_v=20250328162309"></script>
-      <script src="files/animation.js?_v=20250328162309"></script>
-      <script src="js/app.min.js?_v=20250328162309"></script>
+      <script src="files/jquery-3.7.1.js?_v=20250328163447"></script>
+      <script src="files/jquery.inputmask.min.js?_v=20250328163447"></script>
+      <script src="files/ScrollTrigger.min.js?_v=20250328163447"></script>
+      <script src="files/gsap.min.js?_v=20250328163447"></script>
+      <script src="js/animation.js?_v=20250328163447"></script>
+      <script src="js/app.min.js?_v=20250328163447"></script>
    </body>
 </html>
