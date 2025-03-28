@@ -1405,8 +1405,8 @@ main {
 .footer__main-logo-facebook svg,
 .footer__main-logo-linkedin svg,
 .footer__main-logo-youtube svg {
-  width: 100%;
-  height: 100%;
+  width: 16px;
+  height: 16px;
   fill: white;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
